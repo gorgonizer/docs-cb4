@@ -105,7 +105,7 @@
        <codeblock outputclass="language-bash">rpm2cpio openssl098e-0.9.8e-17.el6.centos.2.x86_64.rpm | cpio --extract --make-directories --no-absolute-filenames</codeblock></li>
       
       <li>Move the extracted files to the <filepath>/lib</filepath> directory for Couchbase Server:
-       <codeblock outputclass="language-bash">mv /usr/lib64/* lib/</codeblock></li> 
+       <codeblock outputclass="language-bash">mv usr/lib64/* lib/</codeblock></li> 
      </ul></li>
     <li>After you extract the Couchbase Server installation files, go to the sub-directory:
      <codeblock outputclass="language-bash">cd opt/couchbase</codeblock></li>
